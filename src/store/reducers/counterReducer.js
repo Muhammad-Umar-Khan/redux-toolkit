@@ -1,5 +1,6 @@
 const initialState = {
   value: 0,
+  animals: ["Kudo", "Giraph", "Lion", "Leapord", "cheetah"],
 };
 
 export const counterReducer = (state = initialState, action) => {
